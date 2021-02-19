@@ -19,13 +19,14 @@ the sum of the series is 1234
 """
 
 x = int(input())
-answer = str(1)
-plus = str(1)
+
+number = 1
+ten = 10
+answer = 0
 
 for i in range (1,x+1):
-    plus = i 
-    answer = answer + i
-   
-
+    answer = answer + number
+    number = number + ten
+    ten = ten * 10
 answer = str(answer)
 print("the sum of the series is " + answer)
