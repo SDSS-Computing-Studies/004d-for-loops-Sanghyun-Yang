@@ -16,9 +16,10 @@ outputs:
 
 example:
 enter a number:4
-****
-****
-****
-****
-
 """
+x = int(input())
+y = int(input())
+
+for i in range(y):
+    xx = x * "*"
+    print(xx)
