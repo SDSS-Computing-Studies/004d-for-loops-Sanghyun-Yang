@@ -41,7 +41,7 @@ Invalid input
 x = int(input())
 xx = 1
 if x < 0:
-    print("invalid input")
+    print("Invalid input")
 for i in range(1,x+1): 
     xx = xx * i 
 x = str(x)
