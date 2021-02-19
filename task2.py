@@ -2,7 +2,7 @@
 """
 ###### Task 2
 Ask the user to enter a name.
-Check the name against a tuple that contains a series of names to see if it is a match. Use a for loop this time instead of a single if with multiple
+Checsk the name against a tuple that contains a series of names to see if it is a match. Use a for loop this time instead of a single if with multiple
 logical operators
 (2 points)
 
